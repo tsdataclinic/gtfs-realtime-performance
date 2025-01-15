@@ -2,9 +2,6 @@ import os
 os.chdir("/home/canyon/Bus-Weather-Impacts")
 from src.utils import *
 import pandas as pd
-import numpy as np
-import geopandas as gpd
-import numpy as np
 pd.options.mode.chained_assignment = None
 from src.api import parse_zipped_gtfs
 from src.gtfs_segments import GTFS_shape_processor

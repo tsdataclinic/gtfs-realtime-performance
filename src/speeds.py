@@ -4,7 +4,6 @@ import numpy as np
 from shapely.ops import linemerge
 import bisect
 from tqdm import tqdm
-import logging
 
 class BusSpeedCalculator:
     """
