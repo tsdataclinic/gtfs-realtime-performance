@@ -13,3 +13,10 @@ geopandas
 shapely
 requests
 numpy
+tqdm
+contextily
+matplotlib
+plotnine
+geopy
+xyzservices
+statsmodels
