@@ -1,15 +1,10 @@
-import os 
 import pandas as pd
 import os
 os.chdir("/home/canyon/Bus-Weather-Impacts")
-import numpy as np
 import geopandas as gpd
-import numpy as np
-from shapely.ops import nearest_points
 pd.options.mode.chained_assignment = None
 from shapely.geometry import Point, LineString
 import src.api as api
-from shapely.ops import linemerge
 from shapely.ops import substring
 
 class GTFS_shape_processor:

@@ -1,13 +1,8 @@
 import requests
-import gzip
 import pandas as pd
 import tempfile
-import shutil
 import os
-import geopandas as gpd
-import numpy as np
 import tarfile
-import traceback
 
 def read_parquet_from_tar_gz(url):
     """
